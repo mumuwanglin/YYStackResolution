@@ -24,7 +24,7 @@
 		3DA3A2C6C231BF3311A9EC4D /* Pods_YYStackResolution.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYStackResolution.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F101B67DA36511A1464096C /* Pods-YYStackResolution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYStackResolution.release.xcconfig"; path = "Target Support Files/Pods-YYStackResolution/Pods-YYStackResolution.release.xcconfig"; sourceTree = "<group>"; };
 		96C7BE5AEFE22F766DD57C9B /* Pods-YYStackResolution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYStackResolution.debug.xcconfig"; path = "Target Support Files/Pods-YYStackResolution/Pods-YYStackResolution.debug.xcconfig"; sourceTree = "<group>"; };
-		B43848B22671A6ED0041BC26 /* YYStackResolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYStackResolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43848B22671A6ED0041BC26 /* 安全模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "安全模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43848B52671A6ED0041BC26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B43848B72671A6ED0041BC26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B43848B92671A6EF0041BC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		B43848B32671A6ED0041BC26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B43848B22671A6ED0041BC26 /* YYStackResolution.app */,
+				B43848B22671A6ED0041BC26 /* 安全模式.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B43848B12671A6ED0041BC26 /* YYStackResolution */ = {
+		B43848B12671A6ED0041BC26 /* 安全模式 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B43848C22671A6EF0041BC26 /* Build configuration list for PBXNativeTarget "YYStackResolution" */;
+			buildConfigurationList = B43848C22671A6EF0041BC26 /* Build configuration list for PBXNativeTarget "安全模式" */;
 			buildPhases = (
 				330547DB6957E07038A2D8DE /* [CP] Check Pods Manifest.lock */,
 				B43848AE2671A6ED0041BC26 /* Sources */,
@@ -154,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = YYStackResolution;
+			name = "安全模式";
 			productName = YYStackResolution;
-			productReference = B43848B22671A6ED0041BC26 /* YYStackResolution.app */;
+			productReference = B43848B22671A6ED0041BC26 /* 安全模式.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B43848B12671A6ED0041BC26 /* YYStackResolution */,
+				B43848B12671A6ED0041BC26 /* 安全模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B43848C22671A6EF0041BC26 /* Build configuration list for PBXNativeTarget "YYStackResolution" */ = {
+		B43848C22671A6EF0041BC26 /* Build configuration list for PBXNativeTarget "安全模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B43848C32671A6EF0041BC26 /* Debug */,
