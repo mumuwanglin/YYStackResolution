@@ -73,16 +73,10 @@ class ViewController: NSViewController {
     
     
     private func run(command: String) -> String {
-        let task = Process()
-        task.launchPath = "/bin/sh"
-        task.arguments = ["-c", command]
+        let process = SubProcess(cmd: "/bin/sh", args: ["-c", command])
+        process.run()
         
-        let outPipe = Pipe()
-        task.standardOutput = outPipe
-        
-        let outHandle = outPipe.fileHandleForReading
-        task.launch()
-        return String(data: outHandle.readDataToEndOfFile(), encoding: .utf8) ?? ""
+        return process.output
     }
     
     func formatDSYM(_ urls: [URL]) {

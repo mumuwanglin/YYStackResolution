@@ -17,6 +17,7 @@
 		B43848CC2671B4660041BC26 /* YYUUIDInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43848CB2671B4660041BC26 /* YYUUIDInfo.swift */; };
 		B43848CE267202F50041BC26 /* YYCrashStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43848CD267202F50041BC26 /* YYCrashStack.swift */; };
 		B43848D226720A180041BC26 /* YYStringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43848D126720A180041BC26 /* YYStringExt.swift */; };
+		B4F06202277D8E4200336700 /* SubProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F06201277D8E4200336700 /* SubProcess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B43848CB2671B4660041BC26 /* YYUUIDInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYUUIDInfo.swift; sourceTree = "<group>"; };
 		B43848CD267202F50041BC26 /* YYCrashStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYCrashStack.swift; sourceTree = "<group>"; };
 		B43848D126720A180041BC26 /* YYStringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYStringExt.swift; sourceTree = "<group>"; };
+		B4F06201277D8E4200336700 /* SubProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubProcess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		B43848B42671A6ED0041BC26 /* YYStackResolution */ = {
 			isa = PBXGroup;
 			children = (
+				B4F06200277D8E3800336700 /* Utils */,
 				B43848D0267209FF0041BC26 /* Extension */,
 				B43848C82671B3EF0041BC26 /* Model */,
 				B43848C52671AA3D0041BC26 /* View */,
@@ -124,6 +127,14 @@
 				B43848D126720A180041BC26 /* YYStringExt.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		B4F06200277D8E3800336700 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B4F06201277D8E4200336700 /* SubProcess.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 				B43848D226720A180041BC26 /* YYStringExt.swift in Sources */,
 				B43848B82671A6ED0041BC26 /* ViewController.swift in Sources */,
 				B43848CA2671B4160041BC26 /* YYArchiveInfo.swift in Sources */,
+				B4F06202277D8E4200336700 /* SubProcess.swift in Sources */,
 				B43848CC2671B4660041BC26 /* YYUUIDInfo.swift in Sources */,
 				B43848CE267202F50041BC26 /* YYCrashStack.swift in Sources */,
 				B43848B62671A6ED0041BC26 /* AppDelegate.swift in Sources */,
